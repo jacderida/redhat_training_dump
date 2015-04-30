@@ -1,0 +1,5 @@
+create database heat;
+grant all privileges on heat.* to 'heat'@'localhost' identified by 'redhat';
+grant all privileges on heat.* to 'heat'@'%' identified by 'redhat';
+flush privileges;
+quit;

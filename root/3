@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+source keystorerc_admin
+openstack-service restart cinder-scheduler
+openstack-service restart cinder-volume
